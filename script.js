@@ -45,14 +45,6 @@ chubbBtnEleTwo.addEventListener("click", chubbTacklesBrokenTwo)
 
 let chubbBtnEleThree = document.getElementById("nick-button-3");
 
-// let hideButtonThree = gameState.totalNumOfBrokenTackles
-
-// if (hideButtonThree < 5) {
-//     chubbBtnEleThree.style.display = "none";
-// } else if (hideButtonThree >= 5) {
-//     chubbBtnEleThree.style.display = "block";
-// }
-
 
 function chubbTacklesBrokenThree () {
     if (gameState.totalNumOfBrokenTackles >= 15) {
