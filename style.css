@@ -1,30 +1,88 @@
 body {
-    background-color: aquamarine;
+    background-color: #311D00;
+    color: #fff;
 }
-.column-container {
+.header {
     display: flex;
-    width: 100%;
-    height: 100vh;
-    min-width: 650px;
+    justify-content: center;
+    flex-direction: column;
 }
-.column {
+.header-one {
+    text-align: center;
+}
+#chubb {
+    height: 256px;
+}
+.container-one {
+    display: flex;
+    justify-content: center;
+}
+.label {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;;
+}
+.broken-container {
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+}
+#broken-tackles-total {
+    display: inline-block;
+}
+#brk-tkls-num {
+    display: inline-block;
+}
+#buttons {
+    display: flex;
+    justify-content: center;
+}
+#start {
+    width: 90px;
+    background-color: #fff;
+}
+#start:hover {
+    background-color: #FF3C00;
+    color: #fff;
+}
+#stop {
+    width: 90px; 
+    background-color: white;
+}
+#stop:hover {
+    background-color: #FF3C00;
+    color: #fff;
+}
+#broken-tackles-rewards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1%;;
+}
+#tackle-producer {
     display: flex;
     flex-direction: column;
     align-items: center;
     flex-grow: 1;
-    border: 2px dotted;
 }
-.container-left {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 25px;
-    height: 80vh;
+#nick-one {
+    height: 128px;
 }
-.container-right {
-    display: none;
+#nick-two {
+    height: 128px;
 }
-.nick {
-    height: 256px;
+#nick-three {
+    height: 128px;
+}
+#nick-button:hover {
+    background-color: #FF3C00;
+    color: #fff;
+}
+#nick-button-2:hover {
+    background-color: #FF3C00;
+    color: #fff;
+}
+#nick-button-3:hover {
+    background-color: #FF3C00;
+    color: #fff;
 }

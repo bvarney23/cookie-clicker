@@ -9,23 +9,56 @@
     <script type="text/javascript" defer src="script.js"></script>
 </head>
 <body>
-    <div class="column-container">
-        <div class="column">
-            <div class="container-left">
-                <div class="broken-container">
-                    Broken:
-                    <span class="broken-tackles">0</span>
-                </div>
-                <div class="tackles-container">
-                    <span class="tkls">0</span>
-                    tackles/second
-                </div>
-                    <img class ="nick" src="broken_tackle.jpeg">
-            </div>
-        </div>
-    <div class="column">
-        <div class="column-header">Broken Tackles</div>
+    <div class="header">
+        <div class="header-one"><h2>Break Tackles with Nick Chubb!</h2>
+        <h3>Click Nick Chubb to Break Tackles and Earn Rewards!</h3></div>
     </div>
+
+    <div class="nick-chubb">
+        <div class="container-one">
+            <img src="broken_tackle.jpeg" id="chubb">
+        </div>
+            <div class="label">
+                <label>Number of Broken Tackles:
+                    <p id="brk-tkls-num">0</p>
+                </label>
+            </div>
+
+        <div class="broken-container">
+            <label>Broken Tackles / second: 
+                <p id="broken-tackles-total">0</p>
+            </label>
+        </div>
+
+        <div id="buttons">
+            <button id="start">Start</button>
+            <button id="stop">Pause</button>
+        </div>
+    </div>
+
+    <div id="broken-tackles-rewards">
+
+        <div id="tackle-producer">
+            <img src="stiff-arm.jpeg" id="nick-one">
+                <p>Cost of increase: 5 broken tackles</p>
+                <p>Increases: 1 broken tackle/second</p>
+                <button id="nick-button">Upgrade</button>
+        </div>
+
+        <div id="tackle-producer">
+            <img src="leg-tackle.jpeg" id="nick-two">
+            <p>Cost of increase: 10 broken tackles</p>
+            <p>Increases: 5 broken tackle/second</p>
+            <button id="nick-button-2">Upgrade</button>
+        </div>
+
+        <div id="tackle-producer">
+            <img src="celebration.jpeg" id="nick-three">
+            <p>Cost of increase: 15 broken tackles</p>
+            <p>Increases: 10 broken tackle/second</p>
+            <button id="nick-button-3">Upgrade</button>
+        </div>
+
     </div>
 </body>
 </html>
